@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodingKidz.ie</title>
+</head>
+<body style="background-color: #SW7008 ;">
+
+<div class="nav">
+
+<nav>
+ <ul class="nav">
+  <li class="list"><a href="Page1.html"></a><li>
+  <li class="list"><a href="Page3.html">Donate</a></li>
+  <li class="list"><a href="Page2.html">Events</a></li>
+  <li class="list"><a href="Page2.html">About</a></li>
+  <li class="list"><a href="Page2.html">Home</a></li>
+ </ul>
+</nav>
+</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Header Color</title>
+    <style>
+        /* CSS to change the header color */
+        header {
+            background-color: #344E41; /* Change this to your desired color */
+            color: beige; /* Text color */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Events</h1>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css">
+    <style>
+        body {
+            font-family: 'Hack', monospace;
+        }
+    </style>
+</head>
+
+    <p>Here at ______ we try and plan events to raise funds to purchase up to date equipment, grow our team and enhance our facilities as it is important our students get the most out of each class they take.</p>
+</body>
+</html>
+
+    </header>
+</body>
+</html>
+<style>
+
+div.nav{
+       background-color: black;
+       color:white;
+
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #344E41;
+}
+li.list {
+  float: right;
+}
+
+li.list a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+background-color: beige;
+color: #344E41;
+font-family: 'Hack', monospace;
+}
+    
+
+
+h1  {
+padding:30px;
+margin: 0;
+background-colour:#344E41;
+colour: white;
+}
+
+</style>
+
+
+
+</body>
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodingKidz.ie</title>
+</head>
+<body style="background-color: white ;">
+
+<div class="nav">
+
+<nav>
+ <ul class="nav">
+  <li class="list"><a href="Page1.html"></a><li>
+ <ul class="nav">
+
+  <li class="list"><a href="Page1.html"></a><li>
+<li class="list"><a href="Page1.html"></a><li>
+  <li class="list"><a href="Page3.html">December</a></li>
+  <li class="list"><a href="Page2.html">November</a></li>
+  <li class="list"><a href="Page2.html">October</a></li>
+  <li class="list"><a href="Page2.html">September</a></li>
+  <li class="list"><a href="Page3.html">August</a></li>
+  <li class="list"><a href="Page2.html">July</a></li>
+  <li class="list"><a href="Page2.html">June</a></li>
+  <li class="list"><a href="Page2.html">May</a></li>
+  <li class="list"><a href="Page3.html">April</a></li>
+  <li class="list"><a href="Page2.html">March</a></li>
+  <li class="list"><a href="Page2.html">February</a></li>
+  <li class="list"><a href="Page2.html">January</a></li>
+ </ul>
+</nav>
+</div>
+

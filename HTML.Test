@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+<div class="nav">
+
+<nav>
+ <ul class="nav">
+  <li class="list"><a href="Page1.html">Home</a><li>
+  <li class="list"><a href="Page3.html">About</a></li>
+  <li class="list"><a href="Page2.html">Events</a></li>
+  <li class="list"><a href="Page2.html">Donate</a></li>
+  <li class="list"><a href="Page2.html">Classes</a></li>
+ </ul>
+</nav>
+</div>
