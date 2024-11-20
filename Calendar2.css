@@ -1,0 +1,90 @@
+body {
+  font-family: "Hack", monospace;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: #344e41;
+  overflow: hidden;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  display: block;
+  color: beige;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  background-color: beige;
+  color: #344e41;
+}
+.header-image {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.header {
+  background-color: #344e41;
+  color: beige;
+  padding: 20px;
+  text-align: center;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.tabs button {
+  background-color: #344e41;
+  color: beige;
+  border: #344e41;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.tabs button:hover {
+  background-color: beige;
+  color: #344e41;
+}
+.tabs button.active {
+  background-color: beige;
+  color: #344e41;
+}
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: #63957c;
+  border: 1px solid #344e41;
+  margin: 0 20px;
+}
+.tab-content.active {
+  display: block;
+}
+.event-tile {
+  background-color: #344e41;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.add-to-calendar {
+  background-color: #344e41;
+  color: beige;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.add-to-calendar:hover {
+  background-color: beige;
+  color: #344e41;
+}

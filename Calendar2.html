@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events Calendar</title>
+
+    <link rel="stylesheet" href="Calerdar2.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#donate">Donate and Volunteer</a></li>
+        <li><a href="#classes">Classes</a></li>
+      </ul>
+    </div>
+
+    <div class="header">
+      <img
+        src="C:\Users\janee\OneDrive - University of Limerick\Documents\source\HTML\Projects\Website_1\Logo.png"
+        alt="Thank you image"
+        class="header-image"
+      />
+      <h1>Events Calendar</h1>
+
+      <p>
+        Here at
+        <span style="color: #e1ad01"
+          ><em><strong>The Coding Hive</strong></em></span
+        >, we plan events to help raise money to update and enhance or
+        facilities in order to ensure our students get the best out of eache and
+        every lesson : )
+      </p>
+    </div>
+
+    <div class="tabs">
+      <button onclick="showTab('january', this)">January</button>
+      <button onclick="showTab('february', this)">February</button>
+      <button onclick="showTab('march', this)">March</button>
+      <button onclick="showTab('april', this)">April</button>
+      <button onclick="showTab('may', this)">May</button>
+      <button onclick="showTab('june', this)">June</button>
+      <button onclick="showTab('july', this)">July</button>
+      <button onclick="showTab('august', this)">August</button>
+      <button onclick="showTab('september', this)">September</button>
+      <button onclick="showTab('october', this)">October</button>
+      <button onclick="showTab('november', this)">November</button>
+      <button onclick="showTab('december', this)">December</button>
+    </div>
+
+    <div id="january" class="tab-content">
+      <div class="event-tile">
+        <span style="color: beige"
+          ><em><strong>New Years Dinner Dance</strong></em></span
+        >
+      </div>
+      <ul>
+        <li>Date: 01/01/2025</li>
+        <li>Time: 19:00</li>
+        <li>Location: 📍Radison Hotel Limerick</li>
+        <li>
+          All welcome, to help fundraise for more computers for students. Raffle
+          with great prizes to be won. Please contact blahblah@gmail.com for
+          tickets
+        </li>
+      </ul>
+      <img
+        src="C:\Users\janee\OneDrive - University of Limerick\Documents\source\HTML\Projects\Website_1\new years eve party sparkler"
+        alt=" thank you image"
+        class="newyearsimage"
+      />
+      <button class="add-to-calendar">Add to Calendar</button>
+
+      <div class="event-tile">
+        <span style="color: beige"
+          ><em><strong>Charity Bake Sale</strong></em></span
+        >
+      </div>
+      <ul>
+        <li>Date: 01/01/2025</li>
+        <li>Time: 19:00</li>
+        <li>Location: 📍Radison Hotel Limerick</li>
+        <li>
+          All welcome, to help fundraise for more computers for students. Raffle
+          with great prizes to be won. Please contact
+        </li>
+      </ul>
+      <button class="add-to-calendar">Add to Calendar</button>
+    </div>
+    <!-- Close january tab-content div -->
+
+    <div id="february" class="tab-content">
+      <div class="event-tile">
+        <span style="color: beige"
+          ><em><strong>Bake-sale</strong></em></span
+        >
+      </div>
+      <ul>
+        <li>Date: 01/04/2025</li>
+        <li>Time: 10:00 a.m</li>
+        <li>Location: 📍St. Munchin's Community Centre</li>
+        <li>
+          Charity Bakesale to fund upgrading and enhancement of facilities.
+        </li>
+      </ul>
+      <button class="add-to-calendar">Add to Calendar</button>
+      <div class="event-tile">
+        <span style="color: beige"
+          ><em><strong>Valentines Day Dance</strong></em></span
+        >
+      </div>
+      <ul>
+        <li>Date: 15/02/2025</li>
+        <li>Time: 20:30 p.m</li>
+        <li>Location: 📍Limerick City Hotel</li>
+        <li>
+          All welcome, to help fundraise for more computers for students. Raffle
+          with great prizes to be won. Please contact blabla@gmail.com for
+          tickets.
+        </li>
+        <li>
+          Dresscode:
+          <strong
+            ><em> <span style="color: red"> 💃 Red 💃</span></em></strong
+          >
+        </li>
+      </ul>
+      <ul>
+        <strong>Ticket Prices:</strong>
+        <li>Adults: € 35.00</li>
+        <li>Children:€ 20.00</li>
+        <li>Club Members:€ 17.00</li>
+      </ul>
+      <button class="add-to-calendar">Add to Calendar</button>
+    </div>
+    <!-- Close february tab-content div -->
+
+    <div id="march" class="tab-content">
+      <div class="event-tile">
+        <span style="color: beige"
+          ><em><strong>Games Convention</strong></em></span
+        >
+      </div>
+      <ul>
+        <li>Date: 01/</li>
+        <li>Time:</li>
+        <li>Location: 📍</li>
+        <li></li>
+      </ul>
+      <button class="add-to-calendar">Add to Calendar</button>
+    </div>
+    <!-- Close march tab-content div -->
+
+    <script>
+      function showTab(month, element) {
+        var tabs = document.getElementsByClassName("tab-content");
+        for (const tab of tabs) {
+          tab.classList.remove("active");
+        }
+        document.getElementById(month).classList.add("active");
+
+        var buttons = document.querySelectorAll(".tabs button");
+        buttons.forEach(function (button) {
+          button.classList.remove("active");
+        });
+        element.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
