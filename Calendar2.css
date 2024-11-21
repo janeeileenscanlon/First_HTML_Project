@@ -7,7 +7,11 @@ body {
 .nav {
   background-color: #344e41;
   overflow: hidden;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
+
 .nav ul {
   list-style-type: none;
   margin: 0;
@@ -63,7 +67,7 @@ body {
 .tab-content {
   display: none;
   padding: 20px;
-  background-color: #63957c;
+  background-color: hsla(150, 20%, 25%, 0.4);
   border: 1px solid #344e41;
   margin: 0 20px;
 }
@@ -87,4 +91,65 @@ body {
 .add-to-calendar:hover {
   background-color: beige;
   color: #344e41;
+}
+.newyearsimage {
+  float: right;
+  width: 135px;
+  height: 150px;
+  margin-top: -54px;
+}
+.bakesale1 {
+  float: right;
+  width: 170px;
+  height: 140px;
+  margin-top: -100px;
+}
+.games1 {
+  float: right;
+  width: 400px;
+  height: 140px;
+  margin-top: -100px;
+}
+.valintines1 {
+  float: right;
+  width: 250px;
+  height: 140px;
+  margin-top: -125px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+footer div {
+  padding-bottom: 10px 0;
+  border-bottom: 1px solid #555;
+}
+.bakesale4 {
+  float: right;
+  width: 215px;
+  height: 140px;
+  margin-top: -100px;
+}
+.bingo1 {
+  float: right;
+  width: 215px;
+  height: 140px;
+  margin-top: -52px;
+}
+.summer1 {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -61px;
+}
+.image {
+  float: left;
+  margin-right: 10px;
+}
+.clear {
+  clear: both;
 }
