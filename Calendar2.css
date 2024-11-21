@@ -146,10 +146,45 @@ footer div {
   height: 135px;
   margin-top: -61px;
 }
-.image {
-  float: left;
-  margin-right: 10px;
+.summer2 {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -61px;
 }
-.clear {
-  clear: both;
+.summer3 {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -61px;
+}
+.christmas {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -50px;
+}
+.santa {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -100px;
+}
+.easter {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -120px;
+}
+.bingo2 {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -100px;
+}
+.bingo3 {
+  float: right;
+  width: 210px;
+  height: 135px;
+  margin-top: -100px;
 }
